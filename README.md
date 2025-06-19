@@ -10,6 +10,7 @@ epub2md 是一个将EPUB电子书转换为Markdown格式的命令行工具。它
 - 保留完整目录结构
 - 支持单文件或多文件输出模式
 - 支持中文等多语言内容
+- 章节间导航链接，方便阅读
 
 ## 安装
 
@@ -62,10 +63,24 @@ epub2md --help
 如果你想安装开发版本，可以从源代码安装：
 
 ```bash
-git clone https://github.com/yourusername/epub2md.git
+git clone https://github.com/AlanRemTT/epub2md.git
 cd epub2md
 pip install -e .
 ```
+
+## 版本更新
+
+### v0.1.0 (2024-06-19)
+- 初始版本发布
+- 支持基本的EPUB到Markdown转换功能
+- 支持提取和保存图片资源
+- 支持单文件和多文件输出模式
+
+### v0.1.1 (2024-06-19)
+- 改进文件命名方式，使用更有意义的章节名
+- 完善目录结构，添加内部链接
+- 为各章节文件添加导航链接，便于阅读
+- 修复EPUB解析中的错误处理
 
 ## 依赖
 
