@@ -1,0 +1,5 @@
+ebooklib>=0.17.1
+beautifulsoup4>=4.9.0
+html2text>=2020.1.16
+Pillow>=7.0.0
+click>=7.0
